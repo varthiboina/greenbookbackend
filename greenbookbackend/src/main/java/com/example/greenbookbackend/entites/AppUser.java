@@ -1,4 +1,4 @@
-package entites;
+package com.example.greenbookbackend.entites;
 
 
 import lombok.AllArgsConstructor;
