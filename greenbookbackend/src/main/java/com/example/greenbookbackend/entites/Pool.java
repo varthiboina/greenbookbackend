@@ -41,4 +41,5 @@ public class Pool {
     @OneToMany(mappedBy = "pool")
     @JsonIgnore  // Prevents infinite recursion during serialization
     private List<Products> productList;
+    // test comment
 }
