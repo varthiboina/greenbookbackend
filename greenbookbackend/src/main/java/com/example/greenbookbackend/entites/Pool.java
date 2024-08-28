@@ -24,7 +24,8 @@ public class Pool {
     private String poolName;
     private String poolPin;
     private String poolDescription;
-
+    private String poolStatus;
+    //test
     @ManyToMany
     @JoinTable(
             name = "pool_sellers",
